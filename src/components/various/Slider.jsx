@@ -2,9 +2,6 @@
 const Slider = () => {
   return (
     <section className="slider_section ">
-      <div className="dot_design">
-        <img src="images/dots.png" alt=""/>
-      </div>
       <div id="customCarousel1" className="carousel slide" data-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">

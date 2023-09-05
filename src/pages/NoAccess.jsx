@@ -1,7 +1,11 @@
+import Footer from '../components/various/Footer'
 
 const NoAccess = () => {
   return (
-    <div>NoAccess</div>
+    <>
+      <div>NoAccess</div>
+      <Footer></Footer>
+    </>
   )
 }
 

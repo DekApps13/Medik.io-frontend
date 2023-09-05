@@ -1,7 +1,11 @@
+import Footer from "../components/various/Footer"
 
 const SignUp = () => {
   return (
-    <div>SignUp</div>
+    <>
+      <div>SignUp</div>
+      <Footer></Footer>
+    </>
   )
 }
 

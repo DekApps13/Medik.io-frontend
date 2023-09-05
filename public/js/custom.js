@@ -1,4 +1,5 @@
 // to get current year
+/**
 function getYear() {
     var currentDate = new Date();
     var currentYear = currentDate.getFullYear();
@@ -6,6 +7,7 @@ function getYear() {
 }
 
 getYear();
+**/
 
 // nice select
 $(document).ready(function () {

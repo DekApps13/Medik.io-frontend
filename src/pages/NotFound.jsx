@@ -1,7 +1,11 @@
+import Footer from '../components/various/Footer'
 
 const NotFound = () => {
   return (
-    <div>NotFound</div>
+    <>
+      <div>NotFound</div>
+      <Footer></Footer>
+    </>
   )
 }
 

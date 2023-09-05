@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="container-fluid">
           <nav className="navbar navbar-expand-lg custom_nav-container ">
             
-            <Link className="navbar-brand" to="/">
+            <Link to="/" className="navbar-brand">
               <img src="images/logo.png" alt=""/>
             </Link>
 

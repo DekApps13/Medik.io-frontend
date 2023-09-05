@@ -1,7 +1,11 @@
+import Footer from "../components/various/Footer"
 
 const RegChat = () => {
   return (
-    <div>RegChat</div>
+    <>
+      <div>RegChat</div>
+      <Footer></Footer>
+    </>
   )
 }
 

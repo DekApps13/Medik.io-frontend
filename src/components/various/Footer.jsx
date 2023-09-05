@@ -32,16 +32,16 @@ const Footer = () => {
               </a>
             </div>
             <div className="social_box">
-              <a href="">
+              <a href="https://www.facebook.com/">
                 <i className="fa fa-facebook" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://twitter.com/">
                 <i className="fa fa-twitter" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://pa.linkedin.com/">
                 <i className="fa fa-linkedin" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/">
                 <i className="fa fa-instagram" aria-hidden="true"></i>
               </a>
             </div>
@@ -52,7 +52,7 @@ const Footer = () => {
                 Useful link
               </h5>
               <div className="info_links_menu">
-                <a className="active" href="index.html">
+                <a href="index.html">
                   Home
                 </a>
                 <a href="about.html">

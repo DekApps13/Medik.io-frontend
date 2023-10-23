@@ -17,12 +17,12 @@ const SignUp = () => {
   const [user, setUser] = useState(initial_val)
   const [redirect, setRedirect] = useState(false)
 
-  //Metodo onChange
+  //onChange
   const onchange = (event)=>{
     setUser({...user, [event.target.name]:event.target.value})
   }
 
-  //Metodo onSubmit
+  //onSubmit
   const onsubmit = async (event)=>{
     event.preventDefault()
 
@@ -54,8 +54,10 @@ const SignUp = () => {
     }
   }
 
+  //Si el usuario se registro exitosamente
   if (redirect)
     return <Navigate to="/" />
+
   return (
     <>
       <section className="contact_section layout_padding-bottom">
@@ -68,7 +70,7 @@ const SignUp = () => {
               <div className="form_container">
                 <form onSubmit={onsubmit}>
                   <div>
-                    <input type="text" name="user" value={user.user} onChange={onchange}    placeholder="Usuario"/>
+                    <input type="text" name="user" value={user.user} onChange={onchange} placeholder="Usuario"/>
                   </div>
                   <div>
                     <input type="password" name="password" value={user.password} onChange={onchange} placeholder="Contraseña"/>
